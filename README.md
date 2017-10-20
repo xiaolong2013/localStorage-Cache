@@ -36,7 +36,7 @@ cache:{
    tail:undefined, 链表尾  entry {key:key,value:value,prev:prev,next:next}
    _keymap:存放每个元素(entry) {key:entry}
  }  
-head tail \_keymap\[key\] 都指向 entry  
+head tail _keymap[key] 都指向 entry  
 ```
 对于他们来说都是指针\(内存中的一段地址如果指向同一个对象 那么这个指针就相等\)
 >对于链表其实只要给定头节点,就能找到尾节点
